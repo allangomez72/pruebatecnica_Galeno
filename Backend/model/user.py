@@ -1,5 +1,4 @@
-from sqlalchemy import Table, Column, Integer
-from sqlalchemy.sql.sqltypes import Integer, String
+from sqlalchemy import Table, Column, Integer, String
 from config.db import engine, meta_data
 
 user = Table("users", meta_data,
